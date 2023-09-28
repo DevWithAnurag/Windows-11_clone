@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="start button.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Windows 11</title>
+</head>
+
+<body>
+
+    <div class="file_explorer">
+
+        <div class="top">
+            <!-- left part -->
+            <div class="thispc">
+                <img src="THIS_PC.png" style="width: 21px;">
+                <span style="color: rgb(255, 255, 255); font-size: 11px;">This Pc</span>
+            </div>
+
+            <!-- right  part -->
+            <div class="minimize">
+                <div class="minus minimize_icon">
+                    <img src="minus.png" class="minimize_img">
+                </div>
+
+                <div class="squares minimize_icon ">
+                    <img src="squares.png" class="minimize_img">
+                </div>
+
+                <div class=" minimize_icon redbg" onclick="closefile()">
+                    <img src="close.png" class=" minimize_img close_files">
+                </div>
+            </div>
+
+
+            <div class="ribben">
+                <div class="ribben_icon">
+                    <img src="Ribben1.png">
+                    <p>New</p>
+                </div>
+                <div class="ribben_icon">
+                    <img src="cut.png" style="
+                    transform: rotate(270deg);">
+                </div>
+                <div class="ribben_icon">
+                    <img src="copy.png">
+                </div>
+                <div class="ribben_icon">
+                    <img src="share.png">
+                </div>
+                <div class="ribben_icon">
+                    <img src="delete.png">
+                </div>
+                <div class="ribben_icon">
+                    <img src="more.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="down_bar">
+
+            <div class="down_top_bar">
+
+                <div class="navigation">
+                    <div class="left">
+                        <img src="arrow.png" style="transform:rotate(270deg);" class="navigation_img">
+                    </div>
+
+                    <div class="right">
+                        <img src="arrow.png" style="transform:rotate(90deg);" class="navigation_img">
+                    </div>
+
+                    <div class="up">
+                        <img src="up.png" style="transform:rotate(180deg);" class="navigation_img">
+                    </div>
+
+                    <div class="up-arrow">
+                        <img src="arrow.png" class="navigation_img">
+                    </div>
+
+                </div>
+
+                <div class="location">
+
+                    <div class="location_icon">
+                        <img src="THIS_PC.png">
+                    </div>
+
+                    <div class="up">
+                        <img src="up.png" style="transform:rotate(90deg); filter: invert(1);width:10px;  height: 10px;"
+                            class="navigation_img">
+                    </div>
+
+                    <div class="This_pc_text">
+                        <p style="font-size: 11px;">This pc</p>
+                    </div>
+
+                    <div class="up">
+                        <img src="up.png" style="transform:rotate(90deg); filter: invert(1);width:10px;  height: 10px;"
+                            class="navigation_img">
+                    </div>
+
+                    <div class="location_left_container">
+                        <div class="up">
+                            <img src="up.png"
+                                style="transform:rotate(180deg); filter: invert(1); width:10px;  height: 10px;"
+                                class="navigation_img">
+                        </div>
+
+                        <div class="relaod">
+                            <img src="reload.png" style="width: 11px;filter: invert(1);">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="search">
+                    <input type="text" class="navigation_search" placeholder="Search This Pc">
+                </div>
+            </div>
+
+            <div class="file_explorer_containt">
+                <div class="left_file_containt">
+
+                    <div class="this_pc_left_side">
+
+                        <details open>
+                            <summary><img src="THIS_PC.png" class="summary_img">This pc</summary>
+                          
+                            <div class="first_wapper">
+
+                                <div class="windwos">
+                                    <div class="img">
+                                        <img src="windows.png" alt="" class="droupdown_img">
+                                    </div>
+                                    <div class="windwos_11">
+                                        <p>Windows 11(c:)</p>
+                                    </div>
+                            </div>
+
+                            <div class="second_wapper">
+
+                             <div class="windwos">
+                                    <div class="img">
+                                        <img src="Drive.png" alt="" class="droupdown_img">
+                                    </div>
+                                    <br>
+                                    &nbsp;
+                                    <div class="windwos_11">
+                                       <p>Anurag (D:)</p>
+                                    </div>
+                            </div>
+
+
+                                </div>
+
+                            </div>
+
+                        </details>
+
+                    </div>
+
+                </div>
+
+                <div class="right_file_containt">
+                        <div class="folder">
+
+                            <div class="down">
+                                <img src="up.png" alt="">
+                            </div>
+                            
+                            <div class="text">
+                                <p> Folder</p>
+                             </div>
+                            <div class="rooler"></div>
+                                <div class="folder_down">
+                                    <div class="folder_down_icon"><img src="desktop.png" alt="" style="    width: 471px;
+                                        height: 59px;"></div>
+                                  
+                                </div>
+                            </div>
+                            <div class="drive">
+                                <div class="folder">
+
+                                    <div class="down">
+                                        <img src="up.png" alt="">
+                                    </div>
+                                    
+                                    <div class="text">
+                                        <p> Folder</p>
+                                     </div>
+                                    <div class="rooler"></div>
+
+                                    <div class="Drives">
+                                        <div class="disk">
+                                            <div class="window_drive">
+                                                <img src="windows.png" style="width: 36px;">
+                                            </div>
+                                            <div class="information">
+                                                <div class="info">
+                                                    <p>Windows 11(c:)</p>
+                                                </div>
+                                                <div class="info">
+                                                    <img src="storage_full.png" style="width: 128px; height: 44px;">
+                                                </div>
+                                                <div class="info">
+                                                    <p>225GB free of 329GB</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="disk">
+                                            <div class="window_drive">
+                                                <img src="windows.png" style="width: 36px;">
+                                            </div>
+                                            <div class="information">
+                                                <div class="info">
+                                                    <p>Anurag (D:)</p>
+                                                </div>
+                                                <div class="info">
+                                                    <img src="Anurag.png" style="width: 131px; height: 43px;">
+                                                </div>
+                                                <div class="info">
+                                                    <p>120GB free of 512GB</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      
+                                    </div>
+
+
+
+                            </div>
+
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+    </div>
+
+    <div class="taskbar">
+
+
+        <!-- start menu  -->
+        <div class="start_menu">
+            <!-- options -->
+            <div class="options">
+                <div class="pinned_option">Pinned</div>
+                <div class="all_apps"><button>All&nbsp;apps<img src="forword.png" style="width: 16px;"></button></div>
+            </div>
+            <!-- icons -->
+            <div class="start_menu_icons">
+                <div class="start_menu_icon"><img src="microsoft.png">
+                    <p>Microsoft Edge</p>
+                </div>
+                <div class="start_menu_icon"><img src="mail.png">
+                    <p>Mail</p>
+                </div>
+                <div class="start_menu_icon"><img src="calender.png">
+                    <p>Calender</p>
+                </div>
+                <div class="start_menu_icon"><img src="store.png">
+                    <p>Microsoft Store</p>
+                </div>
+                <div class="start_menu_icon"><img src="photes.png">
+                    <p>Photes</p>
+                </div>
+                <div class="start_menu_icon"><img src="settings.png">
+                    <p>Settings</p>
+                </div>
+                <div class="start_menu_icon"><img src="vscode.png">
+                    <p> Vs code</p>
+                </div>
+                <div class="start_menu_icon"><img src="visual-studio.png">
+                    <p>Visual Studio</p>
+                </div>
+                <div class="start_menu_icon"><img src="folder.png">
+                    <p>Folder</p>
+                </div>
+                <div class="start_menu_icon"><img src="excel.png">
+                    <p>MS Excel</p>
+                </div>
+                <div class="start_menu_icon"><img src="powerpoint.png">
+                    <p>MS PowerPoint</p>
+                </div>
+                <div class="start_menu_icon"><img src="word.png">
+                    <p>MS Word</p>
+                </div>
+                <div class="start_menu_icon"><img src="settings.png">
+                    <p>Settings</p>
+                </div>
+            </div>
+
+
+            <div class="start_menu_footer">
+                <div class="user_profile">
+                    <img src="user.png">
+                    <p>Anurag Tiwari</p>
+                </div>
+                <div class="setting_otheres">
+                    <img src="Start_setting.png">
+                    <img src="power.png" class="power_button">
+                </div>
+
+            </div>
+            <div class="power_menu">
+                <div class="sleep power_menu_containt">Sleep</div>
+                <div class="Restart power_menu_containt">Restart</div>
+                <div class="Shutdown power_menu_containt"><a href="shutdown.html" style="text-decoration: none; color: white;"> Shutdown</a></div>
+            </div>
+
+        </div>
+        <!-- start menu ends -->
+
+        <!-- taskbar all icons -->
+        <div class="icons">
+            <div class="taskbar_icons start_icon"><img src="start_icon.png"></div>
+            <div class="search_bar"> <input type="text" placeholder="Search"></div>
+            <div class="taskbar_icons " onclick="openfiles()"><img src="folder.png" class="open_files"></div>
+            <div class="taskbar_icons"><img src="store.png"></div>
+            <div class="taskbar_icons"><img src="microsoft.png"></div>
+            <div class="taskbar_icons"><img src="visual-studio.png"></div>
+            <div class="taskbar_icons"><img src="word.png"></div>
+            <div class="taskbar_icons"><img src="excel.png"></div>
+            <div class="taskbar_icons"><img src="powerpoint.png"></div>
+
+        </div>
+        <div class="right_containt">
+            <div class="right_containt_itemes"><img src="up.png"></div>
+            <div class="right_containt_itemes"><img src="wifi.png" style="transform: rotate(315deg);" class="pop_up">
+            </div>
+
+            <div class="wifi_popup">
+                <div class="wifi_popup_first_container">
+
+                    <div class="wifi_popup_icon">
+                        <img src="wifi_pop.png">
+                        <img src="up.png" style=" transform: rotate(92deg); width: 21px;">
+                        <div class="subtittle">Wifi</div>
+                    </div>
+
+                    <div class="wifi_popup_icon">
+                        <img src="bluetooth.png">
+                        <div class="subtittle">Bluetooth</div>
+                    </div>
+                    <div class="wifi_popup_icon">
+                        <img src="airplane-mode.png">
+                        <div class="subtittle">Wifi</div>
+                    </div>
+                    <div class="wifi_popup_icon">
+                        <img src="battery_saver.png" style="height: 32px;">
+                        <div class="subtittle">Battery Saver</div>
+                    </div>
+                    <div class="wifi_popup_icon">
+                        <img src="focus assist.jfif" style="transform: rotate(248deg);">
+                        <div class="subtittle">Focus Assist</div>
+                    </div>
+                    <div class="wifi_popup_icon">
+                        <img src="accessibility.png">
+                        <img src="up.png" style=" transform: rotate(92deg); width: 21px;">
+                        <div class="subtittle">Accessibility</div>
+                    </div>
+                </div>
+
+                <div class="sound_brightness">
+                    <div class="brightness">
+                        <img src="brightness.png">
+                        <input type="range" min="1" max="100" value="50">
+                    </div>
+                    <div class="sound">
+                        <img src="sound.png">
+                        <input type="range" min="1" max="100" value="50">
+                    </div>
+                </div>
+
+                <div class="wifi_popup_footer">
+                    <div class="settings">
+                        <img src="edit.png">
+                        <img src="Start_setting.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="right_containt_itemes"><img src="volume.png" alt=""></div>
+            <div class="time_date_container">
+                <div id="timeDisplay"></div>
+                <div id="dateDisplay"></div>
+            </div>
+            <div class="right_containt_itemes"><img src="notification.png" style="width: 20px;"></div>
+        </div>
+
+    </div>
+    <div class="desktop_icon_container">
+        <!-- This pc -->
+        <div class="desktop_icon" onclick="openfiles()">
+            <img src="THIS_PC.png">
+            <span>This PC</span>
+        </div>
+        <!-- recycle bin -->
+        <div class="desktop_icon">
+            <img src="recyclebin.png">
+            <span>Recycle Bin </span>
+        </div>
+        <!-- edage -->
+        <div class="desktop_icon">
+            <img src="microsoft.png">
+            <span>Microsoft Edge</span>
+        </div>
+        <!-- vscode -->
+        <div class="desktop_icon">
+            <img src="vscode.png">
+            <span>VS code</span>
+        </div>
+    </div>
+
+
+
+
+    <script>
+
+        start = document.querySelector('.start_icon')
+        start_menu = document.querySelector('.start_menu')
+        start.addEventListener('click', () => {
+            start_menu.classList.toggle('slide');
+        })
+
+
+        power = document.querySelector('.power_button')
+        power_menu = document.querySelector('.power_menu')
+        power.addEventListener('click', () => {
+            power_menu.classList.toggle('power_menu_silde');
+        })
+        
+        pop_up = document.querySelector('.pop_up')
+        wifi_popup = document.querySelector('.wifi_popup')
+        pop_up.addEventListener('click', () => {
+            wifi_popup.classList.toggle('wifi_popup_slide');
+        })
+ 
+//fucntion for file explorer
+
+function openfiles() {
+    var file_explorer = document.getElementsByClassName('file_explorer');
+    for (var i = 0; i < file_explorer.length; i++) {
+                   file_explorer[i].classList.add('closefiles');
+                   file_explorer[i].classList.remove('closefilesbycross');
+                }
+            }
+            
+            function closefile() {
+    var file_explorer = document.getElementsByClassName('file_explorer');
+    for (var i = 0; i < file_explorer.length; i++) {
+        file_explorer[i].classList.add('closefilesbycross');
+    
+    }
+}
+
+
+
+        function updateTimeAndDate() {
+            const timeElement = document.getElementById("timeDisplay");
+            const dateElement = document.getElementById("dateDisplay");
+
+            const now = new Date();
+
+            // Format time (e.g., 1:40 PM)
+            const hours = now.getHours();
+            const minutes = now.getMinutes();
+            const amOrPm = hours >= 12 ? "PM" : "AM";
+            const formattedTime = `${(hours % 12) || 12}:${minutes.toString().padStart(2, "0")} ${amOrPm}`;
+
+            // Format date (e.g., 02/08/2006)
+            const year = now.getFullYear();
+            const month = (now.getMonth() + 1).toString().padStart(2, "0");
+            const day = now.getDate().toString().padStart(2, "0");
+            const formattedDate = `${day}/${month}/${year}`;
+
+            // Update the HTML elements
+            timeElement.textContent = formattedTime;
+            dateElement.textContent = formattedDate;
+        }
+
+        // Call the function to update time and date immediately and every second
+        updateTimeAndDate();
+        setInterval(updateTimeAndDate, 1000);
+        
+        
+
+//for move the file explorer 
+var file_explorer= document.querySelector('.file_explorer');
+
+file_explorer.addEventListener('mousedown', mousedown);
+
+function mousedown() {
+    let =document.getElementsByClassName('top');
+   let mouse= top.addEventListener('mousemove', mousemove);
+    top.addEventListener('mouseup', mouseup);
+  
+    function mousemove(e) {
+        var x = e.x -300 + 'px';
+        var y = e.y -20 + 'px';
+        file_explorer.style.left = x;
+        file_explorer.style.top = y;
+        
+    }
+    function mouseup() {
+        top.removeEventListener('mousemove', mousemove);
+       
+    }
+}
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
